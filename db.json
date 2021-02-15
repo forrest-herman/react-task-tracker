@@ -11,6 +11,12 @@
       "text": "Apply to Jobs",
       "day": "Everyday at 11:59pm",
       "reminder": false
+    },
+    {
+      "text": "Finish React App",
+      "day": "Feb 15 2021",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

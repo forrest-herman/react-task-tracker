@@ -8,6 +8,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 243, 220);
 }
 
 .container {
@@ -19,9 +20,11 @@ body {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 1px 1px 5px 0.3px rgb(82, 63, 29);
+    background-color: rgb(255, 255, 255);
 }
 
 .header {
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +59,7 @@ body {
 }
 
 .task {
-    background: #f4f4f4;
+    background: #ececece1;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;

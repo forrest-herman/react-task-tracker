@@ -1,3 +1,11 @@
+# TO RUN:
+
+npm i json-server
+
+json-server --watch db.json --port 5000
+
+npm run server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

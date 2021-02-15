@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "2DA3 Assignment",
+      "day": "Feb 20 at 11:59pm",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Apply to Jobs",
+      "day": "Everyday at 11:59pm",
+      "reminder": false
+    }
+  ]
+}

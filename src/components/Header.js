@@ -1,4 +1,5 @@
 import PropTypes from "prop-types"
+import { useLocation } from "react-router-dom"
 import Button from "./Button"
 
 const Header = ({ title, showTaskForm, buttonText }) => {
@@ -6,11 +7,19 @@ const Header = ({ title, showTaskForm, buttonText }) => {
     //     setShowAddTask(true)
     // }
 
+    const location = useLocation()
+
     return (
         <div>
             <header className='header'>
                 <h1>{title}</h1>
-                <Button color='#8f4113' text={buttonText ? "Cancel" : "Add Task"} click={showTaskForm} />
+                {location.pathname == "/" && (
+                    <Button
+                        color={buttonText ? "#8f4113" : "#af4113"}
+                        text={buttonText ? "Cancel" : "Add Task"}
+                        click={showTaskForm}
+                    />
+                )}
             </header>
         </div>
     )
